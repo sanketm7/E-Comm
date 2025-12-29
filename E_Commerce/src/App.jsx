@@ -7,6 +7,8 @@ import About from "./About";
 import Login from "./Login";
 
 const App = () => {
+  let a = 10;
+
   const router = createBrowserRouter([
     {
       path: "/",
